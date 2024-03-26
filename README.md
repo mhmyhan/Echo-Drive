@@ -1,2 +1,8 @@
 # Echo-Drive
-A simple game project for me and my friends from university. The theme being a spaceship management game written in java (the language we are, as a team most familiar with)
+A game project for me and my friends while studying at university.
+
+Project Type: Text-Based/2d/isometric Game (TBD)
+
+Languages: Java
+
+Description: A spaceship management game requiring strategy to keep your ship's systems operational while handling RPG style encounters and fighting enemy ships from from system to system.
