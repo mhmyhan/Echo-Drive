@@ -27,7 +27,8 @@ public class Room {
 
     /**
      * constructor with all parameters manually defined
-     * @param level defines the selected level of the room in question
+     *
+     * @param level     defines the selected level of the room in question
      * @param fragility defines the
      */
     protected Room(int level,
@@ -46,7 +47,6 @@ public class Room {
     }
 
     /**
-     *
      * @param levels how many levels to be increased by
      */
     public void levelUp(int levels) {

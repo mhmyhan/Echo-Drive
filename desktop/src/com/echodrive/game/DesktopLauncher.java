@@ -9,8 +9,10 @@ public class DesktopLauncher {
 	public static void main (String[] arg) {
 		System.out.println("AY YO");
 		Lwjgl3ApplicationConfiguration config = new Lwjgl3ApplicationConfiguration();
-		config.setForegroundFPS(60);
 		config.setTitle("echo-drive");
+		config.setWindowedMode(800, 480);
+		config.useVsync(true);
+		config.setForegroundFPS(60);
 		new Lwjgl3Application(new echodrive(), config);
 
 	}
