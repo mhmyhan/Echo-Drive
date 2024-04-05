@@ -17,7 +17,7 @@ import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.ScreenUtils;
 import com.badlogic.gdx.utils.TimeUtils;
 
-public class drop extends ApplicationAdapter {
+public class Drop extends ApplicationAdapter {
 	private Texture dropImage;
 	private Texture bucketImage;
 	private Sound dropSound;
@@ -34,7 +34,7 @@ public class drop extends ApplicationAdapter {
 		dropImage = new Texture(Gdx.files.internal("droplet.png"));
 		bucketImage = new Texture(Gdx.files.internal("bucket.png"));
 
-		// load the drop sound effect and the rain background "music"
+		// load the Drop sound effect and the rain background "music"
 		dropSound = Gdx.audio.newSound(Gdx.files.internal("drop.wav"));
 		rainMusic = Gdx.audio.newMusic(Gdx.files.internal("rain.mp3"));
 
