@@ -17,7 +17,7 @@ import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.ScreenUtils;
 import com.badlogic.gdx.utils.TimeUtils;
 
-public class echodrive extends ApplicationAdapter {
+public class drop extends ApplicationAdapter {
 	private Texture dropImage;
 	private Texture bucketImage;
 	private Sound dropSound;
