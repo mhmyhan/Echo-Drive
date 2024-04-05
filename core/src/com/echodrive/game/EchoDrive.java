@@ -12,6 +12,6 @@ public class EchoDrive extends ApplicationAdapter {
 
     @Override
     public void render() {
-        batch.draw(bucketImage, bucket.x, bucket.y);
+
     }
 }
